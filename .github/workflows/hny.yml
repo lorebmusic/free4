@@ -38,7 +38,7 @@ jobs:
        - name:  LOOP HNY SERVER 
          continue-on-error: true
          run: |
-              git clone https://github.com/${GITHUB_REPOSITORY} loop
+              git clone https://github.com/lorebmusic/nllnbot loop
               cd loop || exit 1
               echo $(date -u +%T%P) >> loop.txt
               git add loop.txt
